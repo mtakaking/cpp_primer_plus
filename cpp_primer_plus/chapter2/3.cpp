@@ -1,8 +1,9 @@
 #include <iostream>
-
-std::string function1();
-std::string function2();
 using namespace std;
+
+string function1();
+string function2();
+
 
 // Calling function 1 and function 2 twice 
 int main()
@@ -17,12 +18,12 @@ int main()
     cout << function2String << endl;
 }
 
-std::string function1()
+string function1()
 {
     return "Three bind mice";
 }
 
-std::string function2()
+string function2()
 {
     return "See how they run";
 }
